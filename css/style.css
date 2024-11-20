@@ -1,0 +1,579 @@
+/* ========================== Common CSS Start Here ========================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  max-width: 1232px;
+  margin: 0 auto;
+}
+.sidebyside {
+  display: flex;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ========================== Common CSS End Here ========================== */
+
+/* ========================== Navbar CSS Start Here ========================== */
+nav {
+  position: absolute;
+  width: 100%;
+}
+
+nav .sidebyside {
+  padding-top: 51px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 9999;
+  border-bottom: 1px solid #3ed1ba;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 34px;
+}
+nav ul li a {
+  font-size: 24px;
+  color: #333333;
+  transition: 0.2;
+  -webkit-transition: 0.2;
+  -moz-transition: 0.2;
+  -ms-transition: 0.2;
+  -o-transition: 0.2;
+}
+nav ul li a:hover {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* ========================== Navbar CSS End Here ========================== */
+
+/* ========================== Banner CSS Start Here ========================== */
+#banner {
+  position: relative;
+}
+.banner_div {
+  padding-top: 180px;
+}
+
+.shape_background {
+  position: absolute;
+  top: 0;
+  height: 1046px;
+  width: 66.7%;
+  z-index: -1;
+}
+#banner .sidebyside {
+  column-gap: 104px;
+}
+#banner h1 {
+  font-size: 64px;
+  color: #333333;
+  max-width: 624px;
+  line-height: 86px;
+}
+#banner .paraghraph {
+  max-width: 585px;
+  font-size: 16px;
+  color: #777777;
+  line-height: 32px;
+  margin-top: 24px;
+  margin-bottom: 56px;
+}
+.banner_icons_items {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.banner_icons {
+  width: 56px;
+  height: 56px;
+  border: 2px solid #3ed1ba;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner_icons h3 {
+  color: #3ed1ba;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.banner_img {
+  position: relative;
+}
+.banner_img .banner_box {
+  width: 400px;
+  height: 480px;
+  background: #e2e2e2;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.banner_img .card_01 {
+  position: absolute;
+
+  top: 50px;
+  left: 81%;
+
+  max-width: 184px;
+
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.13);
+  padding: 16px 12px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.banner_img .card_01_div {
+  width: 160px;
+  height: 112px;
+  background: #e2e2e2;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.banner_img .card_01 p {
+  max-width: 155px;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+}
+
+.banner_img .card_02 {
+  position: absolute;
+
+  left: -50%;
+  bottom: -12%;
+  max-width: 458px;
+  background: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.13);
+  padding: 12px 17px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.banner_img .card_02_div {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: #e2e2e2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.banner_img .card_02 p {
+  max-width: 301px;
+
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+}
+.rectangle {
+  position: relative;
+}
+.rectangle .right_left_arrows {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  position: absolute;
+  top: 40px;
+  left: 94%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.rectangle .arrows {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #4505fb;
+  color: #4505fb;
+  font-size: 25px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle .rectangle_division {
+  padding-top: 112px;
+  padding-bottom: 102px;
+  display: flex;
+  column-gap: 16px;
+}
+.rectangle_division .all_divs {
+  width: 296px;
+  height: 360px;
+  background: #e2e2e2;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+/* ========================== Banner CSS End Here ========================== */
+
+/* ========================== Latest Articles CSS Start Here ========================== */
+
+#latest_articles {
+  position: relative;
+}
+.latest_articles_background_img img {
+  height: 1472px;
+  width: 100%;
+  position: absolute;
+  top: 402px;
+  left: 0;
+  z-index: -1;
+}
+
+#latest_articles h2 {
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 64px;
+}
+#latest_articles .sidebyside {
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+  padding: 32px 26px;
+  max-width: 1232px;
+  background: #fff;
+}
+
+.latest_articles_div {
+  width: 478px;
+  height: 424px;
+  background: #e2e2e2;
+}
+.latest_articles_content h3 {
+  color: #000;
+  font-size: 32px;
+  line-height: 43px;
+  max-width: 688px;
+}
+.latest_articles_content h4 {
+  line-height: 22px;
+  font-size: 16px;
+  color: #000;
+  max-width: 133px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.latest_articles_content .paraghraph {
+  font-size: 16px;
+  color: #777777;
+  max-width: 688px;
+  margin-bottom: 48px;
+}
+.latest_articles_content a {
+  display: inline-block;
+  color: #3ed1ba;
+  font-size: 16px;
+}
+.tarvel_div {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.card_09_div {
+  max-width: 400px;
+  background: #fff;
+  padding: 29px 26px;
+  position: relative;
+}
+.card_09_div .card_div {
+  width: 348px;
+  height: 200px;
+  background: #e2e2e2;
+}
+.travel_btn a {
+  display: inline-block;
+  color: #fff;
+  background: #b79dff;
+  border-radius: 5px;
+  padding: 4px 32px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: absolute;
+  top: 43px;
+  left: 240px;
+  font-size: 14px;
+}
+.card_09_div h3 {
+  max-width: 348px;
+  line-height: 43px;
+  font-size: 32px;
+  color: #000;
+  margin-top: 16px;
+}
+.card_09_div h4 {
+  font-size: 16px;
+  color: #000;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.card_09_div p {
+  max-width: 348px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #777777;
+  margin-bottom: 48px;
+}
+.card_09_div .see_more a {
+  display: inline-block;
+  color: #3ed1ba;
+  font-size: 16px;
+}
+/* ========================== Latest Articles CSS End Here ========================== */
+
+/* ========================== Pagination CSS Start Here ========================== */
+#pagination {
+  padding-top: 88px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+/* ========================== Pagination CSS End Here ========================== */
+
+/* ========================== Latest Instagram Part CSS Start Here ========================== */
+#latest_part {
+  padding-bottom: 160px;
+}
+#latest_part .sidebyside {
+  justify-content: space-between;
+  align-items: center;
+}
+#latest_part .content {
+  width: 400px;
+  margin-top: -370px;
+}
+#latest_part .content h2 {
+  max-width: 323px;
+  font-size: 48px;
+  color: #333333;
+  line-height: 63px;
+}
+#latest_part .content .paraghraph {
+  max-width: 400px;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+#latest_part .content .instagram_btn a {
+  display: inline-block;
+  padding: 16px 21px;
+  background: #7d50ff;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+#latest_part .content .instagram_btn a:hover {
+  background: transparent;
+  color: black;
+}
+#latest_part .division {
+  width: 711px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 13px;
+}
+.division .latest_divs {
+  width: 349px;
+  height: 349px;
+  background: #e2e2e2;
+}
+
+/* ========================== Latest Instagram Part CSS End Here ========================== */
+
+/* ========================== Footer CSS Start Here ========================== */
+
+#footer {
+  margin: 0 auto;
+  position: relative;
+}
+footer .footer_bg {
+  height: 428px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#footer .sidebyside {
+  position: absolute;
+  top: 0;
+
+  column-gap: 412px;
+  border-bottom: 1px solid #cccccc;
+}
+.footer_content {
+  padding: 124px 0 24px;
+}
+.footer_content .nav_logo {
+  max-width: 236px;
+  margin-bottom: 16px;
+}
+.footer_content .paraghraph {
+  line-height: 32px;
+  max-width: 400px;
+  font-size: 16px;
+  color: #777777;
+}
+.footer_items {
+  max-width: 420px;
+  padding: 137px 0 66px;
+}
+.footer_items ul {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+}
+
+.footer_items ul li a {
+  font-size: 16px;
+  color: #333333;
+}
+
+.footer_icons_items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 67px;
+}
+.footer_icons {
+  width: 40px;
+  height: 40px;
+  background: #b79dff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_icons h3 {
+  color: #fff;
+  font-size: 16px;
+}
+.copy_right {
+  position: absolute;
+  top: 363px;
+}
+.copy_right p {
+  font-size: 16px;
+  color: #333333;
+}
+
+/* ========================== Footer CSS End Here ========================== */
